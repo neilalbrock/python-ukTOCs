@@ -34,10 +34,10 @@ _records = [
 	TOC('LT',u'London Underground',u'http://tube.tfl.gov.uk'),
 	TOC('IL',u'Island Line',u'http://www.southwesttrains.co.uk'),
 	TOC('SX',u'Stansted Express','https://www.stanstedexpress.com/'),
-	TOC('ZZ',u'',u''),
-	TOC('TW',u'',u''),
-	TOC('NY',u'',u''),
-	TOC('WR',u'',u'')]
+	TOC('ZZ',u'Unknown',u''),
+	TOC('TW',u'Unknown',u''),
+	TOC('NY',u'Unknown',u''),
+	TOC('WR',u'Unknown',u'')]
 
 def _build_index(idx):
     return dict((r[idx], r) for r in _records)
