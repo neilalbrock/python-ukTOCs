@@ -28,7 +28,16 @@ _records = [
 	TOC('SN',u'Southern',u'http://www.southernrailway.com'),
 	TOC('SE',u'Southeastern',u'http://www.southeasternrailway.co.uk'),
 	TOC('SW',u'South West Trains',u'http://www.southwesttrains.co.uk'),
-	TOC('VT',u'Virgin Trains',u'http://www.virgintrains.co.uk')]
+	TOC('VT',u'Virgin Trains',u'http://www.virgintrains.co.uk'),
+	TOC('HC',u'Heathrow Connect',u'http://www.heathrowconnect.com'),
+	TOC('GX',u'Gatwick Express',u'http://www.gatwickexpress.com'),
+	TOC('LT',u'London Underground',u'http://tube.tfl.gov.uk'),
+	TOC('IL',u'Island Line',u'http://www.southwesttrains.co.uk'),
+	TOC('SX',u'Stansted Express','https://www.stanstedexpress.com/'),
+	TOC('ZZ',u'',u''),
+	TOC('TW',u'',u''),
+	TOC('NY',u'',u''),
+	TOC('WR',u'',u'')]
 
 def _build_index(idx):
     return dict((r[idx], r) for r in _records)
