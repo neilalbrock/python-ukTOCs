@@ -36,7 +36,7 @@ _records = [
     TOC('SX',u'Stansted Express','https://www.stanstedexpress.com/'),
     TOC('NY',u'North Yorkshire Moors Railway',u'http://www.nymr.co.uk'),
     TOC('WR',u'West Coast Railway Co.',u'http://www.westcoastrailways.co.uk'),
-    TOC('TW',u'Tyne & Wear Metro',u'http://www.nexus.org.uk/metro'),
+    TOC('TW',u'Tyne and Wear Metro',u'http://www.nexus.org.uk/metro'),
     TOC('ZZ',u'Unknown',u'')]
 
 def _build_index(idx):
